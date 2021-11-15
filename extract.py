@@ -150,6 +150,8 @@ for f in l:
 """
 #extract_img2("faces\\강혜원\\0223.jpg", "hahaha.jpg")
 #extract_img2("0223.jpg", "hahaha.jpg")
+#extract_img("/Users/chpark/Documents/CU\ Boulder/2021_Fall/Machine\ Learning/Project/Face-Recognition/extracted_frames/test_frames/00000003.jpg")
+#extract_img2("00000081.jpg", "test.jpg")
 process("faces", "output")
 ftarget.close()
 
