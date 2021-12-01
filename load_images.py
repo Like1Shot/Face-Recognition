@@ -38,6 +38,10 @@ def load_folder(basefolder, resolution):
 resol = "64"
 raw_data = load_folder(path_dataset, resol)
 print(raw_data)
+print("Total size : {}".format(raw_data.shape))
+
 data = DataFrame(raw_data)
+data = data.drop_duplicates()
+print("After duplicate removed : {}".format(data.shape))
 data.to_csv("output.csv", index=False)
 
