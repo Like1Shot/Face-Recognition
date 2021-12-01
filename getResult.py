@@ -71,7 +71,7 @@ mlp = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(5, 2), rando
 mlp.fit(X_train, y_train)
 accuracy = mlp.score(X_test, y_test)
 print('Accuracy of K-Nearest Neighbors: ', accuracy)
-f1 = sklearn.metrics.f1_score(y_true, np.array(predicted), average="macro")
+f1 = f1_score(np.array(y_test), np.array(predicted), average="macro")
 print('F1 score of K-Nearest Neighbors: ', f1)
 
 
