@@ -83,6 +83,7 @@ def load_folder(basefolder, resolution, output_filename):
 			total_array = None
 			total_array = np. array([])
 
+	print("[+] Finished! Total {} images saved!".format(total_count))
 	return total_count
 
 resol = "64"
