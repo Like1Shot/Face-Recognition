@@ -4,7 +4,21 @@ import glob
 import numpy as np
 from pandas import Series, DataFrame
 
-path_dataset = "./dataset"
+
+'''
+0 - Chanheum Park
+1 - Feelgyun
+2 - Taeksang
+
+3 - 
+4 -
+
+
+
+
+'''
+
+path_dataset = "./image"
 path_labels  = [ "0", "1", "2" ]
 path_resolu  = [ "64", "128" ]
 label_align  = { "non_align": 0, "align" : 1 }
@@ -38,10 +52,7 @@ def load_folder(basefolder, resolution):
 resol = "64"
 raw_data = load_folder(path_dataset, resol)
 print(raw_data)
-print("Total size : {}".format(raw_data.shape))
-
 data = DataFrame(raw_data)
 data = data.drop_duplicates()
-print("After duplicate removed : {}".format(data.shape))
-data.to_csv("output.csv", index=False)
 
+data.to_csv("output.csv", index=False)
