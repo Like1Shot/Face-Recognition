@@ -19,7 +19,7 @@ from pandas import Series, DataFrame
 '''
 
 path_dataset = "./dataset"
-path_labels  = [ "0", "1", "2" ]
+path_labels  = [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16" ]
 path_resolu  = [ "64", "128" ]
 label_align  = { "non_align": 0, "align" : 1 }
 
