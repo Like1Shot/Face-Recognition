@@ -2,7 +2,7 @@
 
 ## CSCI-5622 Group Project on facial recognotion
 
-#### Code structure
+### Code structure
 ```
 Face Recognition
   │ 
@@ -23,7 +23,7 @@ Face Recognition
   └── resultMATLAB.xlsx: sample image data...
 ```
 
-## How to use 
+### How to use 
 #### TBA...
 
 #### Install the required packages
