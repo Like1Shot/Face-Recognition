@@ -20,7 +20,7 @@ Face Recognition
   |    |     └── videoFrames.py: extracting images from a video file 
   │    
   ├── scripts: TBA...
-  └── resultMATLAB.xlsx: sample image data...
+  └── resultMATLAB.xlsx: sample image data
 ```
 
 ### How to use 
