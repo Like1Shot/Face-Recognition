@@ -4,7 +4,7 @@
 
 ### Code structure
 ```
-Face Recognition
+Face-Recognition
   │ 
   ├── src
   │    │     
