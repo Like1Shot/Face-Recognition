@@ -13,11 +13,12 @@ Face-Recognition
   │    │     └── plotResult.m: for plotting all the 5 results as a 2*3 subplot
   │    │      
   │    └── Python
-  │    |     ├── extract.py: Applying RetinaFace to detect and crop facial data
-  |    |     |          into 64x64 and 128x128 sized image files
-  │    |     ├── imgToCSV.py: generating the CSV file dataset from the cropped imgs
-  |    |     ├── webCrawler.py: for crawling the web for specific images
-  |    |     └── videoFrames.py: extracting images from a video file 
+  │          ├── extract.py: Applying RetinaFace to detect and crop facial data
+  |          |          into 64x64 and 128x128 sized image files
+  │          ├── imgToCSV.py: generating the CSV file dataset from the cropped imgs
+  |          ├── webCrawler.py: for crawling the web for specific images
+  |          ├── videoFrames.py: extracting images from a video file 
+  |          └── getResults.py: generate the results (accuracy & f1-score)
   │    
   ├── scripts: TBA...
   └── resultMATLAB.xlsx: sample image data
