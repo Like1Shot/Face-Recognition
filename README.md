@@ -9,7 +9,7 @@ Face-Recognition
   ├── src
   │    │     
   │    ├── Matlab
-  │    │     ├── adaBoost.m: example code for ploting out the result
+  │    │     ├── adaBoost.m: example code for ploting the results (f1-score)
   │    │     └── plotResult.m: for plotting all the 5 results as a 2*3 subplot
   │    │      
   │    └── Python
